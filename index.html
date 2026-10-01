@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raúl Chamorro Macías · Responsable de TI y Digitalización · Ciberseguridad</title>
+<meta name="description" content="Currículum de Raúl Chamorro Macías: Ingeniero Técnico en Informática de Gestión, responsable de TI y Digitalización en Cruz Roja Española, máster en Ciberseguridad y Privacidad en curso.">
+<style>
+:root{--navy:#1F2A37;--navy2:#2B3948;--lime:#C8D400;--ink:#26303B;--mut:#5B6672;--bg:#F4F6F8;--card:#fff;--line:#DDE3E9;--serif:Georgia,"Times New Roman",serif;--sans:"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 var(--sans);color:var(--ink);background:var(--bg)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--lime);outline-offset:2px}
+.wrap{display:grid;grid-template-columns:320px 1fr;max-width:1180px;margin:0 auto;min-height:100vh}
+aside{background:var(--navy);color:#E8ECF0;padding:44px 30px;position:sticky;top:0;height:100vh;overflow:auto}
+.photo{width:200px;aspect-ratio:1058/1342;border-radius:10px;margin:0 auto 22px;position:relative;background:var(--navy2);border:4px solid var(--lime);display:grid;place-items:center;font:700 56px var(--serif);color:var(--lime);overflow:hidden}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+aside h1{font:700 29px/1.15 var(--serif);margin:0 0 8px;text-align:center;color:#fff}
+.role{text-align:center;color:var(--lime);margin:0 0 26px;font-size:15px}
+aside h2{font:600 15px var(--sans);color:#fff;margin:26px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--lime)}
+aside ul{list-style:none;margin:0;padding:0;font-size:14.5px}
+aside li{margin:0 0 8px}
+aside a{text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+aside a:hover{border-color:var(--lime)}
+aside small{display:block;color:#A9B4C0}
+.lang{display:flex;gap:12px;align-items:center}
+.lang img{width:56px;height:auto;border-radius:4px;background:#fff}
+main{padding:44px 44px 60px}
+section{margin:0 0 38px}
+section>h2{font:700 25px var(--serif);color:var(--navy);margin:0 0 18px;padding-left:14px;border-left:6px solid var(--lime)}
+.lead{font-size:17px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 24px;margin:0}
+.item{display:grid;grid-template-columns:150px 1fr;gap:6px 22px;padding:18px 0;border-top:1px solid var(--line)}
+.item:first-of-type{border-top:0;padding-top:0}
+.when{font-weight:600;color:var(--navy);font-size:14.5px}
+.when small{display:block;font-weight:400;color:var(--mut)}
+.item h3{margin:0;font:600 17.5px/1.35 var(--sans);color:var(--navy)}
+.org{margin:2px 0 8px;color:var(--mut);font-style:italic}
+.item ul{margin:6px 0 0;padding-left:20px}
+.item li{margin:0 0 5px}
+.tag{display:inline-block;font-size:13px;background:var(--lime);color:var(--navy);font-weight:600;padding:1px 9px;border-radius:99px;margin-left:8px;vertical-align:2px}
+.skills{display:grid;grid-template-columns:150px 1fr;gap:10px 22px;margin:0}
+.skills dt{font-weight:600;color:var(--navy);font-size:14.5px}
+.skills dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.chips li{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:4px 12px;font-size:14.5px}
+details{border-top:1px solid var(--line);padding:12px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:600;color:var(--navy)}
+details p{margin:8px 0 0;font-size:14.5px;color:var(--ink)}
+footer{color:var(--mut);font-size:13px;margin-top:40px}
+@media(max-width:860px){
+.wrap{display:block}
+aside{position:static;height:auto;padding:34px 22px}
+main{padding:30px 20px 50px}
+.item,.skills{grid-template-columns:1fr}
+.item{gap:2px}
+}
+@media print{
+aside{position:static;height:auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.wrap{display:block}details{display:block}details>*{display:block}
+}
+html[lang=en] .es,html[lang=es] .en{display:none}
+.lg{position:fixed;top:12px;right:14px;z-index:9}
+.lg>button{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.85);color:var(--navy);display:grid;place-items:center;cursor:pointer;opacity:.7}
+.lg>button:hover,.lg>button:focus-visible{opacity:1}
+.lg ul{display:none;position:absolute;right:0;top:40px;margin:0;padding:4px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.lg.open ul{display:block}
+.lg li button{all:unset;display:block;padding:6px 16px;font-size:14px;color:var(--navy);cursor:pointer;border-radius:5px;white-space:nowrap}
+.lg li button:hover,.lg li button:focus-visible{background:var(--bg)}
+.lg li button[aria-pressed=true]{font-weight:700}
+.badge{display:block;margin-top:8px;width:64px;height:auto;background:#fff;border-radius:4px}
+@media print{.lg{display:none}}
+</style>
+</head>
+<body>
+<div class="lg" id="lg"><button type="button" id="lgb" aria-label="Idioma / Language" aria-haspopup="true" aria-expanded="false" title="Idioma / Language"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg></button>
+<ul><li><button type="button" data-l="es" aria-pressed="true">Español</button></li><li><button type="button" data-l="en" aria-pressed="false">English</button></li></ul></div>
+<div class="wrap">
+
+<aside>
+  <div class="photo" aria-hidden="false">RC<img src="ph_cv.jpg" alt="Foto de Raúl Chamorro Macías" width="200" height="254" onerror="this.remove()"></div>
+  <h1>Raúl Chamorro Macías</h1>
+  <p class="role"><span class="es">Responsable de TI y Digitalización</span><span class="en">IT &amp; Digitalisation Manager</span><br><span class="es">Ciberseguridad y Privacidad</span><span class="en">Cybersecurity &amp; Privacy</span></p>
+
+  <h2><span class="es">Contacto</span><span class="en">Contact</span></h2>
+  <ul>
+    <li><span class="es">Badajoz, España</span><span class="en">Badajoz, Spain</span></li>
+    <li><a href="mailto:rachy089@yahoo.es">rachy089@yahoo.es</a></li>
+    <li><a href="https://www.linkedin.com/in/raulch/" target="_blank" rel="noopener">linkedin.com/in/raulch</a></li>
+  </ul>
+
+  <h2><span class="es">Idiomas</span><span class="en">Languages</span></h2>
+  <ul>
+    <li><span class="es">Español</span><span class="en">Spanish</span> <small><span class="es">Lengua materna</span><span class="en">Native language</span></small></li>
+    <li><span class="es">Inglés</span><span class="en">English</span> <small><span class="es">B1 certificado · LanguageCert International ESOL (Entry 3, Achiever B1), 2024</span><span class="en">Certified B1 · LanguageCert International ESOL (Entry 3, Achiever B1), 2024</span></small><img class="badge" src="badge_languagecert.png" alt="LanguageCert International ESOL Achiever B1" width="64" height="58" onerror="this.remove()"></li>
+  </ul>
+
+  <h2><span class="es">Competencias personales</span><span class="en">Personal skills</span></h2>
+  <ul>
+    <li><span class="es">Liderazgo y motivación</span><span class="en">Leadership and motivation</span></li>
+    <li><span class="es">Gestión de equipos y proyectos</span><span class="en">Team and project management</span></li>
+    <li><span class="es">Organización y visión estratégica</span><span class="en">Organisation and strategic vision</span></li>
+    <li><span class="es">Adaptación a entornos multiculturales</span><span class="en">Adaptability in multicultural environments</span></li>
+    <li><span class="es">Formación y docencia (Formador de Formadores)</span><span class="en">Training and teaching (Trainer of Trainers)</span></li>
+  </ul>
+
+  <h2><span class="es">Otros datos</span><span class="en">Other information</span></h2>
+  <ul>
+    <li><span class="es">Disponibilidad para viajar en el ámbito internacional</span><span class="en">Available for international travel</span></li>
+    <li><span class="es">Aficiones: lectura, cine, viajar, fútbol, pádel, MTB y ciclismo</span><span class="en">Interests: reading, cinema, travelling, football, padel, mountain biking and cycling</span></li>
+  </ul>
+</aside>
+
+<main>
+<section id="perfil">
+  <h2><span class="es">Perfil profesional</span><span class="en">Professional profile</span></h2>
+  <p class="lead"><span class="es">Ingeniero Técnico en Informática de Gestión con más de 20 años de trayectoria en gestión de sistemas, comunicaciones, ciberseguridad y cumplimiento normativo (RGPD), liderando equipos y proyectos tecnológicos en el tercer sector y en el ámbito sanitario. Responsable provincial de Tecnologías de la Información y Digitalización en Cruz Roja Española y miembro del equipo ERU IT &amp; Telecom de la Federación Internacional de la Cruz Roja (IFRC). Cursa actualmente el Máster Universitario en Ciberseguridad y Privacidad (UOC), con más del 65&nbsp;% de los créditos superados, y orienta su desarrollo profesional hacia la ciberseguridad y la inteligencia artificial.</span><span class="en">Technical Engineer in Management Computing with more than 20 years of experience in systems management, communications, cybersecurity and regulatory compliance (GDPR), leading technology teams and projects in the non-profit and healthcare sectors. Provincial Head of Information Technology and Digitalisation at the Spanish Red Cross and member of the ERU IT &amp; Telecom team of the International Federation of Red Cross and Red Crescent Societies (IFRC). Currently studying the Master's Degree in Cybersecurity and Privacy (UOC), with more than 65&nbsp;% of the credits completed, and focusing his professional development on cybersecurity and artificial intelligence.</span></p>
+</section>
+
+<section id="experiencia">
+  <h2><span class="es">Experiencia profesional</span><span class="en">Professional experience</span></h2>
+
+  <article class="item">
+    <div class="when"><span class="es">2012 – Actualidad</span><span class="en">2012 – Present</span><small>Badajoz</small></div>
+    <div>
+      <h3><span class="es">Responsable Provincial de Tecnologías de la Información y Digitalización (TID)</span><span class="en">Provincial Head of Information Technology and Digitalisation (ITD)</span></h3>
+      <p class="org"><span class="es">Cruz Roja Española — Comité Autonómico Extremadura · Comité Provincial de Badajoz</span><span class="en">Spanish Red Cross — Extremadura Regional Committee · Badajoz Provincial Committee</span></p>
+      <ul>
+        <li><strong><span class="es">Alcance:</span><span class="en">Scope:</span></strong> <span class="es">gestión de las TI de la organización en la provincia, con unas 360 cuentas de usuario y unos 280 puestos informáticos.</span><span class="en">management of the organisation's IT in the province, with around 360 user accounts and 280 workstations.</span></li>
+        <li><strong><span class="es">Gestión y estrategia:</span><span class="en">Management and strategy:</span></strong> <span class="es">definición, ejecución y control del presupuesto del Departamento de Sistemas y priorización de inversiones; organización de recursos humanos y materiales; interlocución con el resto de departamentos para convertir sus necesidades en proyectos informáticos.</span><span class="en">definition, execution and control of the Systems Department budget and investment prioritisation; organisation of human and material resources; liaison with other departments to turn their needs into IT projects.</span></li>
+        <li><strong><span class="es">Infraestructura y comunicaciones:</span><span class="en">Infrastructure and communications:</span></strong> <span class="es">diseño, planificación e implantación de la infraestructura de voz y datos en el territorio; administración de redes y sistemas; apoyo y supervisión de proyectos complejos y de la integración de nuevos sistemas.</span><span class="en">design, planning and deployment of the voice and data infrastructure across the territory; network and systems administration; support and supervision of complex projects and integration of new systems.</span></li>
+        <li><strong><span class="es">Seguridad y cumplimiento:</span><span class="en">Security and compliance:</span></strong> <span class="es">asesoramiento en cumplimiento normativo y auditoría RGPD; cumplimiento del Esquema Nacional de Seguridad (ENS) y preparación para NIS2; gestión de incidentes de seguridad, copias de seguridad y continuidad; sensibilización y formación de usuarios.</span><span class="en">advice on regulatory compliance and GDPR audits; compliance with the Spanish National Security Framework (ENS) and NIS2 readiness; security incident management, backups and continuity; user awareness and training.</span></li>
+        <li><strong><span class="es">Identidades y colaboración:</span><span class="en">Identity and collaboration:</span></strong> <span class="es">gestión de identidades y accesos (Entra ID, MFA) y administración de Microsoft 365.</span><span class="en">identity and access management (Entra ID, MFA) and Microsoft 365 administration.</span></li>
+        <li><strong><span class="es">Proveedores:</span><span class="en">Suppliers:</span></strong> <span class="es">relación con fabricantes, operadores y consultoras; referente ante las empresas de telefonía y de seguridad.</span><span class="en">relationship with manufacturers, operators and consultancies; main contact for telephony and security companies.</span></li>
+        <li><strong><span class="es">Soporte y servicio:</span><span class="en">Support and service:</span></strong> <span class="es">dirección de incidencias, mantenimiento y evolución del parque de microsistemas; helpdesk presencial y remoto (redes, Windows, Directorio Activo, Exchange, Office 365, Intranet).</span><span class="en">management of incidents, maintenance and evolution of the microsystems estate; on-site and remote helpdesk (networks, Windows, Active Directory, Exchange, Office 365, Intranet).</span></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when"><span class="es">2008 – Actualidad</span><span class="en">2008 – Present</span><small>Badajoz</small></div>
+    <div>
+      <h3><span class="es">Consultor de soluciones tecnológicas</span><span class="en">Technology Solutions Consultant</span></h3>
+      <p class="org"><span class="es">CICOM Monje — Centro de Implantología, Cirugía Oral y Maxilofacial</span><span class="en">CICOM Monje — Implantology, Oral and Maxillofacial Surgery Centre</span></p>
+      <ul>
+        <li><span class="es">Participación en las decisiones estratégicas de sistemas de información y alineamiento entre negocio y tecnología.</span><span class="en">Participation in strategic information systems decisions and alignment between business and technology.</span></li>
+        <li><span class="es">Responsable de proyectos de implantación de aplicaciones y de puesta en marcha de infraestructura tecnológica; administración de sistemas y redes.</span><span class="en">In charge of application deployment projects and the roll-out of technology infrastructure; systems and network administration.</span></li>
+        <li><span class="es">Definición y ejecución del presupuesto y relación con proveedores de hardware, software y servicios.</span><span class="en">Budget definition and execution and relationship with hardware, software and service suppliers.</span></li>
+        <li><span class="es">Dirección de incidencias, mantenimiento y evolución del parque de microsistemas y consumibles; asistencia a usuarios con equipos y programas.</span><span class="en">Management of incidents, maintenance and evolution of the microsystems estate and consumables; user assistance with equipment and programs.</span></li>
+        <li><span class="es">Participación en acciones de formación e impulso de la informática entre los usuarios.</span><span class="en">Participation in training activities and promotion of IT among users.</span></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when"><span class="es">2011 – feb. 2012</span><span class="en">2011 – Feb 2012</span><small>Badajoz</small></div>
+    <div>
+      <h3><span class="es">Director de Sistemas de Tecnología de la Información (CIO)</span><span class="en">Director of Information Technology Systems (CIO)</span></h3>
+      <p class="org"><span class="es">Hospital General — Clínica Extremeña de Salud</span><span class="en">General Hospital — Clínica Extremeña de Salud</span></p>
+      <ul>
+        <li><span class="es">Definición de la estrategia, diseño e implantación de TI del hospital; hoja de ruta tecnológica a largo plazo y seguimiento de hitos.</span><span class="en">Definition of the hospital's IT strategy, design and deployment; long-term technology roadmap and milestone tracking.</span></li>
+        <li><span class="es">Dirección de telecomunicaciones, seguridad, sistemas, software y Centro de Atención a Usuarios; definición de roles y organización del equipo.</span><span class="en">Management of telecommunications, security, systems, software and the User Support Centre; definition of roles and team organisation.</span></li>
+        <li><span class="es">Licitación y gestión de contratos y SLAs; implantación y mantenimiento de sistemas clínicos (HIS, HCE, PACS) y de gestión (ERP, CRM).</span><span class="en">Tendering and management of contracts and SLAs; deployment and maintenance of clinical systems (HIS, EHR, PACS) and business systems (ERP, CRM).</span></li>
+        <li><span class="es">Cumplimiento normativo e implantación de la LOPD.</span><span class="en">Regulatory compliance and LOPD implementation.</span></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when">2007 – 2011<small>Badajoz</small></div>
+    <div>
+      <h3><span class="es">Responsable Provincial de Sistemas de Información</span><span class="en">Provincial Information Systems Manager</span></h3>
+      <p class="org"><span class="es">Cruz Roja Española — Comité Autonómico Extremadura</span><span class="en">Spanish Red Cross — Extremadura Regional Committee</span></p>
+      <p style="margin:0"><span class="es">Administración de redes y sistemas informáticos y administración web (cruzrojaextremadura.org).</span><span class="en">Network and IT systems administration and web administration (cruzrojaextremadura.org).</span></p>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when">2008 – 2022<small>Badajoz</small></div>
+    <div>
+      <h3><span class="es">Administrador web</span><span class="en">Web Administrator</span></h3>
+      <p class="org" style="margin:0"><span class="es">Fedicom — Fundación para el estudio y desarrollo de la implantología, cirugía oral y maxilofacial</span><span class="en">Fedicom — Foundation for the Study and Development of Implantology, Oral and Maxillofacial Surgery</span></p>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when">2007<small>Badajoz</small></div>
+    <div>
+      <h3><span class="es">Formador</span><span class="en">Trainer</span></h3>
+      <p class="org">FOREM Extremadura</p>
+      <p style="margin:0"><span class="es">Cursos de Informática básica, correo electrónico e Internet.</span><span class="en">Courses in basic IT, e-mail and the Internet.</span></p>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when">2003 – 2005<small>Mérida · Badajoz</small></div>
+    <div>
+      <h3><span class="es">Primeras experiencias profesionales</span><span class="en">Early professional experience</span></h3>
+      <p style="margin:0"><span class="es">Comercial de productos informáticos, eléctricos y electrónicos (Carrefour, 2003–2005) · Auxiliar administrativo y técnico de microinformática (UNISALES S.A., 2004) · Instalación y mantenimiento de red, servidores y sistemas (cibercafé Coffenet, 2003–2004).</span><span class="en">Sales assistant for IT, electrical and electronic products (Carrefour, 2003–2005) · Administrative assistant and microcomputer technician (UNISALES S.A., 2004) · Network, server and systems installation and maintenance (Coffenet internet café, 2003–2004).</span></p>
+    </div>
+  </article>
+</section>
+
+<section id="educacion">
+  <h2><span class="es">Educación y formación</span><span class="en">Education and training</span></h2>
+
+  <article class="item">
+    <div class="when"><span class="es">Sep. 2024 – 2027 (previsto)</span><span class="en">Sep 2024 – 2027 (expected)</span><small><span class="es">En curso</span><span class="en">In progress</span></small></div>
+    <div>
+      <h3><span class="es">Máster Universitario en Ciberseguridad y Privacidad</span><span class="en">Master's Degree in Cybersecurity and Privacy</span> <span class="tag"><span class="es">En curso</span><span class="en">In progress</span></span></h3>
+      <p class="org" style="margin:0"><span class="es">Universitat Oberta de Catalunya (UOC) · Más del 65&nbsp;% de los créditos superados</span><span class="en">Universitat Oberta de Catalunya (UOC) · More than 65&nbsp;% of the credits completed</span></p>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when">13/06/2026 – 04/08/2026</div>
+    <div>
+      <h3><span class="es">Máster Universitario en Profesorado de Educación Secundaria Obligatoria, Bachillerato, Formación Profesional y Enseñanza de Idiomas — Especialidad en Informática</span><span class="en">Master's Degree in Teacher Training for Compulsory Secondary Education, Baccalaureate, Vocational Training and Language Teaching — Specialisation in Computer Science</span></h3>
+      <p class="org" style="margin:0"><span class="es">Universidad Internacional de Andalucía (UNIA)</span><span class="en">International University of Andalusia (UNIA)</span></p>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when">Mérida, Badajoz</div>
+    <div>
+      <h3><span class="es">Ingeniería Técnica en Informática de Gestión</span><span class="en">Technical Engineering in Management Computing</span></h3>
+      <p class="org" style="margin:0"><span class="es">Universidad de Extremadura (UEx) · Nivel 2 MECES / Nivel 6 EQF</span><span class="en">University of Extremadura (UEx) · MECES Level 2 / EQF Level 6</span></p>
+    </div>
+  </article>
+
+  <article class="item">
+    <div class="when">2005 – 2006<small><span class="es">Dundalk, Irlanda</span><span class="en">Dundalk, Ireland</span></small></div>
+    <div>
+      <h3><span class="es">Bachelor in Information Technology — Beca Erasmus</span><span class="en">Bachelor in Information Technology — Erasmus scholarship</span></h3>
+      <p class="org" style="margin:0">Dundalk Institute of Technology (DkIT)</p>
+    </div>
+  </article>
+</section>
+
+<section id="competencias">
+  <h2><span class="es">Competencias digitales</span><span class="en">Digital skills</span></h2>
+  <dl class="skills">
+    <dt><span class="es">Sistemas operativos</span><span class="en">Operating systems</span></dt><dd><span class="es">Windows (de XP a Windows 10) y Windows Server (NT, 2000, 2003, 2008, 2012); Linux (Debian, Ubuntu, Red Hat); macOS.</span><span class="en">Windows (XP to Windows 10) and Windows Server (NT, 2000, 2003, 2008, 2012); Linux (Debian, Ubuntu, Red Hat); macOS.</span></dd>
+    <dt><span class="es">Virtualización y copias</span><span class="en">Virtualisation and backup</span></dt><dd><span class="es">VMware Workstation, vSphere y VDI; Veritas Backup 12.5; NTBackup.</span><span class="en">VMware Workstation, vSphere and VDI; Veritas Backup 12.5; NTBackup.</span></dd>
+    <dt><span class="es">Redes y comunicaciones</span><span class="en">Networks and communications</span></dt><dd><span class="es">TCP/IP, Directorio Activo, Exchange, Office 365, telefonía y datos; comunicaciones de emergencia UHF, HF y VSAT; CCNA.</span><span class="en">TCP/IP, Active Directory, Exchange, Office 365, telephony and data; UHF, HF and VSAT emergency communications; CCNA.</span></dd>
+    <dt><span class="es">Bases de datos y BI</span><span class="en">Databases and BI</span></dt><dd>Access, SQL Server, MySQL, Oracle Express 10g; Pentaho BI 9.1.</dd>
+    <dt><span class="es">Ofimática</span><span class="en">Office software</span></dt><dd><span class="es">Microsoft Office (hasta 2019), Excel nivel experto, Teams; Numbers y Pages.</span><span class="en">Microsoft Office (up to 2019), expert-level Excel, Teams; Numbers and Pages.</span></dd>
+    <dt><span class="es">Desarrollo y web</span><span class="en">Development and web</span></dt><dd>HTML, JavaScript, PHP, ASP, JSP, XML, .NET, WordPress, Joomla; Java, C/C++, Visual Basic, Pascal, Delphi.</dd>
+    <dt><span class="es">Seguridad y normativa</span><span class="en">Security and compliance</span></dt><dd><span class="es">RGPD / LOPD, ciberseguridad (Centro Criptológico Nacional), gestión de incidencias y concienciación de usuarios.</span><span class="en">GDPR / LOPD, cybersecurity (National Cryptologic Centre), incident management and user awareness.</span></dd>
+  </dl>
+</section>
+
+<section id="voluntariado">
+  <h2><span class="es">Voluntariado</span><span class="en">Volunteering</span></h2>
+  <article class="item">
+    <div class="when"><span class="es">2010 – Actualidad</span><span class="en">2010 – Present</span></div>
+    <div><h3><span class="es">Miembro ERU IT &amp; Telecom</span><span class="en">ERU IT &amp; Telecom member</span></h3><p style="margin:0"><span class="es">Federación Internacional de la Cruz Roja (IFRC). Equipo de respuesta a emergencias internacionales: redes de comunicaciones, datos y sistemas.</span><span class="en">International Federation of Red Cross and Red Crescent Societies (IFRC). International emergency response team: communications, data and systems networks.</span></p></div>
+  </article>
+  <article class="item">
+    <div class="when"><span class="es">2008 – Actualidad</span><span class="en">2008 – Present</span></div>
+    <div><h3><span class="es">Voluntario ERIE Comunicaciones</span><span class="en">ERIE Communications volunteer</span></h3><p style="margin:0"><span class="es">Cruz Roja Española en Extremadura.</span><span class="en">Spanish Red Cross in Extremadura.</span></p></div>
+  </article>
+  <article class="item">
+    <div class="when">2008 – 2011</div>
+    <div><h3><span class="es">Voluntario ERIE Acuático</span><span class="en">ERIE Aquatic volunteer</span></h3><p style="margin:0"><span class="es">Cruz Roja Española en Extremadura.</span><span class="en">Spanish Red Cross in Extremadura.</span></p></div>
+  </article>
+</section>
+
+<section id="cursos">
+  <h2><span class="es">Formación complementaria</span><span class="en">Additional training</span></h2>
+  <details open>
+    <summary><span class="es">Formación universitaria</span><span class="en">University training</span></summary>
+    <p><span class="es">Detección precoz y prevención de violencia de género y acoso, 3.ª edición — Universidad Internacional de Andalucía, 10/11–19/12/2025, 4 créditos ECTS, calificación Sobresaliente (9,3).</span><span class="en">Early detection and prevention of gender-based violence and harassment (3rd edition) — International University of Andalusia, 10/11–19/12/2025, 4 ECTS credits, grade: Outstanding (9.3).</span></p>
+  </details>
+  <details>
+    <summary><span class="es">Ciberseguridad y protección de datos</span><span class="en">Cybersecurity and data protection</span></summary>
+    <p><span class="es">Seguridad de las TIC, CCN (en curso) · Curso básico de ciberseguridad, CCN (2022) · Protección de datos (2022) · LOPD: aplicación práctica (2021) · LOPD: normativa, derechos y obligaciones (2021) · Seguridad de la información según la LOPD (2008).</span><span class="en">ICT security, CCN (in progress) · Basic cybersecurity course, CCN (2022) · Data protection (2022) · LOPD: practical application (2021) · LOPD: regulations, rights and obligations (2021) · Information security under the LOPD (2008).</span></p>
+  </details>
+  <details>
+    <summary><span class="es">Tecnología y sistemas</span><span class="en">Technology and systems</span></summary>
+    <p><span class="es">Digitalización aplicada al sector productivo (2023) · Teams para el trabajo en grupo (2022) · Pentaho BI 9.1 (2021) · Open Data Kit, nivel básico (2017) · Microsoft Excel, nivel experto (2016) y medio (2015) · Cisco CCNA Exploration 4.0 (2011) · Windows 2003 Server, MOC 2277 (2009) · SAP R/3 (2008) · Programador de sistemas Linux (2007) · Administración de redes con Linux (2006) · PHP5 (2006) · Oracle 10g (2006) · Borland Delphi 5.0 (2004).</span><span class="en">Digitalisation applied to the productive sector (2023) · Teams for group work (2022) · Pentaho BI 9.1 (2021) · Open Data Kit, basic (2017) · Microsoft Excel, expert (2016) and intermediate (2015) · Cisco CCNA Exploration 4.0 (2011) · Windows 2003 Server, MOC 2277 (2009) · SAP R/3 (2008) · Linux systems programmer (2007) · Network administration with Linux (2006) · PHP5 (2006) · Oracle 10g (2006) · Borland Delphi 5.0 (2004).</span></p>
+  </details>
+  <details>
+    <summary><span class="es">Gestión, liderazgo y comunicación</span><span class="en">Management, leadership and communication</span></summary>
+    <p><span class="es">Negociación colectiva y diálogo social (2023) · Actualidad y futuro del Tercer Sector (2023) · Gestión de proyectos (2021) · Formulación de proyectos e indicadores (2021) · Trabajo en equipo I y II (2019) · Representación y portavocía (2017) · Cohesión de equipos (2012) · Coaching y desarrollo organizacional (2011) · Habilidades directivas para mandos intermedios (2010) · Resolución de conflictos (2009) · Hablar en público (2009) · Metodología didáctica, Formador de Formadores (2008) · Gestión del cambio (2008).</span><span class="en">Collective bargaining and social dialogue (2023) · Present and future of the Third Sector (2023) · Project management (2021) · Project formulation and indicators (2021) · Teamwork I and II (2019) · Representation and spokesperson skills (2017) · Team cohesion (2012) · Coaching and organisational development (2011) · Management skills for middle managers (2010) · Conflict resolution (2009) · Public speaking (2009) · Teaching methodology, Trainer of Trainers (2008) · Change management (2008).</span></p>
+  </details>
+  <details>
+    <summary><span class="es">Cooperación internacional y emergencias</span><span class="en">International cooperation and emergencies</span></summary>
+    <p><span class="es">ERU Telecom &amp; IT, Cruz Roja Internacional (2010) · Protection, Gender and Inclusion in Disaster and Crisis, IFRC (2022) · Evaluación de las necesidades de emergencia, IFRC (2022) · Leyes, normas y principios para la respuesta internacional a desastres, IFRC (2022) · Protección internacional y asilo, IFRC (2022) · The World of Red Cross and Red Crescent (2022) · Gestión de la información en cooperación internacional y emergencias (2022) · IMPACT + Delegado Internacional (2019) · Cruz Roja en Zona de Conflicto, Escuela Militar de Guerra (2014) · Manejo del estrés en situación de crisis (2021) · Desfibrilación semiautomática externa, DESA (2019) · Primeros auxilios y prevención de riesgos laborales (2013).</span><span class="en">ERU Telecom &amp; IT, International Red Cross (2010) · Protection, Gender and Inclusion in Disaster and Crisis, IFRC (2022) · Emergency needs assessment, IFRC (2022) · International disaster response laws, rules and principles, IFRC (2022) · International protection and asylum, IFRC (2022) · The World of Red Cross and Red Crescent (2022) · Information management in international cooperation and emergencies (2022) · IMPACT + International Delegate (2019) · Red Cross in Conflict Zones, Military War School (2014) · Stress management in crisis situations (2021) · Automated external defibrillation, AED (2019) · First aid and occupational risk prevention (2013).</span></p>
+  </details>
+</section>
+
+<footer><span class="es">© 2026 Raúl Chamorro Macías · Interés en formación continua y certificaciones de Ciberseguridad e Inteligencia Artificial.</span><span class="en">© 2026 Raúl Chamorro Macías · Interested in continuing education and Cybersecurity and Artificial Intelligence certifications.</span></footer>
+</main>
+
+</div>
+<script>
+(function(){var d=document.documentElement,g=document.getElementById('lg'),b=document.getElementById('lgb'),T={es:'Raúl Chamorro Macías · Responsable de TI y Digitalización · Ciberseguridad',en:'Raúl Chamorro Macías · IT & Digitalisation Manager · Cybersecurity'};
+function set(l,s){d.lang=l;document.title=T[l];g.querySelectorAll('[data-l]').forEach(function(x){x.setAttribute('aria-pressed',x.dataset.l===l)});if(s){try{localStorage.setItem('cv-lang',l)}catch(e){}}}
+var l;try{l=localStorage.getItem('cv-lang')}catch(e){}
+if(l!=='es'&&l!=='en')l=/^es/i.test(navigator.language||'es')?'es':'en';
+set(l,false);
+b.onclick=function(){var o=g.classList.toggle('open');b.setAttribute('aria-expanded',o)};
+g.querySelectorAll('[data-l]').forEach(function(x){x.onclick=function(){set(x.dataset.l,true);g.classList.remove('open');b.setAttribute('aria-expanded',false)}});
+document.addEventListener('click',function(e){if(!g.contains(e.target)){g.classList.remove('open')}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')g.classList.remove('open')});
+})();
+</script>
+</body>
+</html>
